@@ -1,20 +1,48 @@
-PAKET WEBSITE GALANG & ASSOCIATES - SIAP GITHUB PAGES
+GALANG & ASSOCIATES LAW OFFICE — WEBSITE PROFIL (SIAP GITHUB PAGES)
+====================================================================
 
-Cara upload ke GitHub Pages:
-1. Extract ZIP ini terlebih dahulu.
-2. Upload ISI folder ke repository GitHub, bukan file ZIP-nya.
-3. Pastikan file index.html berada di root repository, bukan di dalam folder tambahan.
-4. Pastikan video-profil.mp4 berada satu folder dengan index.html.
-5. Buka repository GitHub > Settings > Pages.
-6. Pada Build and deployment, pilih Source: Deploy from a branch.
-7. Branch: main, Folder: /root, lalu Save.
-8. Tunggu beberapa menit sampai link GitHub Pages aktif.
+STRUKTUR FILE
+-------------
+/index.html        -> Halaman utama (struktur & konten)
+/style.css         -> Seluruh tampilan/desain (warna navy, gold, putih, abu)
+/script.js         -> Interaksi: menu mobile, link WhatsApp, animasi, form
+/logo-galang.jpg   -> Logo kantor (dipakai di header, hero, footer, favicon)
+/video-profil.mp4  -> Video profil kantor
+/.nojekyll         -> Agar GitHub Pages menyajikan semua file apa adanya
 
-Struktur yang benar:
-/index.html
-/video-profil.mp4
-/logo-galang.jpg
-/.nojekyll
+DATA KANTOR
+-----------
+Nama       : Galang & Associates Law Office
+Tagline    : Dedicated Corporate Legal Counsel | Reliable and Protecting Businesses
+Alamat     : Ruko Royal Dharmahusada, Jl. Mulyorejo Barat No.225 Blok DD,
+             Mulyorejo, Kec. Mulyorejo, Surabaya, Jawa Timur 60285
+WhatsApp   : 08233850613  (link: https://wa.me/628233850613)
+Email      : law.office@galanglegal.com
+Instagram  : https://instagram.com/galanglegal
+Google Maps: https://share.google/kYEwpkKjf9zjNJohv
 
-Catatan:
-Logo sudah tertanam di dalam index.html, sedangkan video masih memakai file eksternal video-profil.mp4 agar mudah diganti.
+CARA MENJALANKAN DI LOKAL
+-------------------------
+Cara cepat : klik dua kali file index.html (langsung terbuka di browser).
+Disarankan : jalankan lewat server lokal agar video & embed peta optimal,
+             misalnya dengan XAMPP (taruh folder di htdocs) lalu buka
+             http://localhost/galang%20associates/  ATAU jalankan
+             "npx http-server" di dalam folder ini.
+
+CARA UPLOAD KE GITHUB PAGES
+---------------------------
+1. Buat repository baru di GitHub.
+2. Upload SEMUA file di folder ini ke root repository
+   (index.html harus berada di root, bukan di dalam subfolder).
+3. Buka repository > Settings > Pages.
+4. Build and deployment > Source: "Deploy from a branch".
+5. Branch: main, Folder: / (root), lalu Save.
+6. Tunggu beberapa menit hingga link GitHub Pages aktif.
+
+CARA EDIT CEPAT
+---------------
+- Ganti nomor WhatsApp / email / Instagram : edit objek SITE_CONFIG di script.js.
+- Ganti warna tema                          : edit blok :root di bagian atas style.css.
+- Ganti logo                                : timpa file logo-galang.jpg (nama sama).
+- Ganti video profil                        : timpa file video-profil.mp4 (nama sama).
+- Edit teks/section                         : cari komentar <!-- ... --> di index.html.

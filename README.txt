@@ -16,7 +16,7 @@ Nama       : Galang & Associates Law Office
 Tagline    : Dedicated Corporate Legal Counsel | Reliable and Protecting Businesses
 Alamat     : Ruko Royal Dharmahusada, Jl. Mulyorejo Barat No.225 Blok DD,
              Mulyorejo, Kec. Mulyorejo, Surabaya, Jawa Timur 60285
-WhatsApp   : 08233850613  (link: https://wa.me/628233850613)
+WhatsApp   : 085173404082  (link: https://wa.me/6285173404082)
 Email      : law.office@galanglegal.com
 Instagram  : https://instagram.com/galanglegal
 Google Maps: https://share.google/kYEwpkKjf9zjNJohv
